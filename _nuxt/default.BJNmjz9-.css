@@ -1,0 +1,1 @@
+.burger:checked~label :first-child{top:7px;transform:rotate(45deg);transition:top .15s,transform .3s .15s}.burger:checked~label :nth-child(2n){opacity:0}.burger:checked~label :last-child{bottom:7px;transform:rotate(-45deg);transition:bottom .15s,transform .3s .15s}.hide-scroll:has(.burger:checked){margin-right:4px;overflow-y:hidden}
